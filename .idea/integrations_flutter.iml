@@ -6,6 +6,12 @@
       <excludeFolder url="file://$MODULE_DIR$/1_integration/flutter_app_integration/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/1_integration/flutter_app_integration/build" />
       <excludeFolder url="file://$MODULE_DIR$/1_integration/flutter_app_integration/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/3_integration_pigeon_ffi/flutter_app_integration/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/3_integration_pigeon_ffi/flutter_app_integration/build" />
+      <excludeFolder url="file://$MODULE_DIR$/3_integration_pigeon_ffi/flutter_app_integration/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/2_integration_pigeon/flutter_app_integration/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/2_integration_pigeon/flutter_app_integration/build" />
+      <excludeFolder url="file://$MODULE_DIR$/2_integration_pigeon/flutter_app_integration/.pub" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
