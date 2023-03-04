@@ -1,0 +1,38 @@
+{
+  "buildFiles": [
+    "C:\\Flutter\\SkillBox\\projects\\19\\task\\integrations_flutter\\3_integration_pigeon_ffi\\flutter_app_integration\\android\\app\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\yumos\\AppData\\Local\\Android\\sdk\\cmake\\3.18.1\\bin\\ninja.exe",
+      "-C",
+      "C:\\Flutter\\SkillBox\\projects\\19\\task\\integrations_flutter\\3_integration_pigeon_ffi\\flutter_app_integration\\android\\app\\.cxx\\Debug\\2uz1j2w6\\x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\yumos\\AppData\\Local\\Android\\sdk\\cmake\\3.18.1\\bin\\ninja.exe",
+    "-C",
+    "C:\\Flutter\\SkillBox\\projects\\19\\task\\integrations_flutter\\3_integration_pigeon_ffi\\flutter_app_integration\\android\\app\\.cxx\\Debug\\2uz1j2w6\\x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "simple::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "simple",
+      "output": "C:\\Flutter\\SkillBox\\projects\\19\\task\\integrations_flutter\\3_integration_pigeon_ffi\\flutter_app_integration\\build\\app\\intermediates\\cxx\\Debug\\2uz1j2w6\\obj\\x86_64\\libsimple.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "C:\\Users\\yumos\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+      "cppCompilerExecutable": "C:\\Users\\yumos\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

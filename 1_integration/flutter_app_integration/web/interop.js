@@ -34,21 +34,24 @@ class JsInteropManager extends EventEmitter {
   constructor() {
     super();
 
-    this.buttonElement = document.createElement('button');
-    this.buttonElement.innerText = 'Web Native Button';
+      this.buttonElement = document.createElement('p');
+      this.buttonElement.innerText = 'Нет сообщений';
 
-    window.addEventListener('click', (e) => {
-      if (e.target === this.buttonElement) {
-        const interopEvent = new JsInteropEvent(Math.floor(Math.random() * 500));
-        this.dispatchEvent(interopEvent);
-      }
-    });
+//    this.buttonElement = document.createElement('button');
+//    this.buttonElement.innerText = 'Web Native Button';
 
-    window._clickManager = this;
+//    window.addEventListener('click', (e) => {
+//      if (e.target === this.buttonElement) {
+//        const interopEvent = new JsInteropEvent(Math.floor(Math.random() * 500));
+//        this.dispatchEvent(interopEvent);
+//      }
+//    });
+//
+//    window._clickManager = this;
   }
 
-  getValueFromJs() {
-    return Math.floor(Math.random() * 500);
+  getTextFromJs() {
+    return Math.floor(Math.random() * 500).toString();
   }
 }
 

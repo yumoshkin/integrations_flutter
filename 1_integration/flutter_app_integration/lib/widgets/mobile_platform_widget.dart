@@ -5,19 +5,20 @@ import 'package:flutter/rendering.dart';
 import 'package:flutter/services.dart';
 
 class PlatformWidget extends StatelessWidget {
-  const PlatformWidget({Key? key}) : super(key: key);
+  const PlatformWidget({Key? key, this.message}) : super(key: key);
+  final String? message;
 
   @override
   Widget build(BuildContext context) {
-    late final Widget view;
+    late Widget view;
     if (defaultTargetPlatform == TargetPlatform.android) {
-      final String viewType = 'INTEGRATION_ANDROID';
-      final Map<String, dynamic> creationParams = <String, dynamic>{};
+      const String viewType = 'INTEGRATION_ANDROID';
+
+      final Map<String, dynamic> creationParams = <String, dynamic>{'text': message};
 
       view = PlatformViewLink(
         viewType: viewType,
-        surfaceFactory:
-            (BuildContext context, PlatformViewController controller) {
+        surfaceFactory: (BuildContext context, PlatformViewController controller) {
           return AndroidViewSurface(
             controller: controller as AndroidViewController,
             gestureRecognizers: const <Factory<OneSequenceGestureRecognizer>>{},
@@ -39,22 +40,18 @@ class PlatformWidget extends StatelessWidget {
         },
       );
     } else if (defaultTargetPlatform == TargetPlatform.iOS) {
-      view = UiKitView(
-        viewType: 'INTEGRATION_IOS',
-        onPlatformViewCreated: _onPlatformViewCreated,
-      );
+      view = const UiKitView(viewType: 'INTEGRATION_IOS');
     } else {
       view = Text('$defaultTargetPlatform is not yet supported');
     }
 
-    return SizedBox(
-      height: 50,
-      width: 300,
-      child: view,
+    return Padding(
+      padding: const EdgeInsets.all(8.0),
+      child: SizedBox(
+        height: 50,
+        width: 320,
+        child: view,
+      ),
     );
-  }
-
-  void _onPlatformViewCreated(int id) {
-    print('PlatformView with id: $id created');
   }
 }

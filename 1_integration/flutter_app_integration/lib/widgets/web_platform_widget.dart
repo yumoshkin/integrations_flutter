@@ -1,21 +1,15 @@
 import 'package:flutter/material.dart';
 
 class PlatformWidget extends StatelessWidget {
-  const PlatformWidget({Key? key}) : super(key: key);
+  const PlatformWidget({Key? key, this.message}) : super(key: key);
+  final String? message;
 
   @override
   Widget build(BuildContext context) {
-    return SizedBox(
+    return const SizedBox(
       height: 50,
       width: 200,
-      child: HtmlElementView(
-        viewType: 'web-button',
-        onPlatformViewCreated: _onPlatformViewCreated,
-      ),
+      child: HtmlElementView(viewType: 'web-button'),
     );
-  }
-
-  void _onPlatformViewCreated(int id) {
-    print('PlatformView with id:$id created');
   }
 }

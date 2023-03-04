@@ -7,18 +7,22 @@ import android.widget.TextView
 import io.flutter.plugin.platform.PlatformView
 
 class AndroidTextView(context: Context, id: Int, creationParams: Map<String?, Any?>?) : PlatformView {
-    private val textView: TextView
+  private val textView: TextView
 
-    override fun getView(): View {
-        return textView
+  override fun getView(): View {
+    return textView
+  }
+
+  override fun dispose() {}
+
+  init {
+    textView = TextView(context)
+    textView.textSize = 20f
+
+    if (creationParams != null && creationParams["text"] != null) {
+      textView.text = "${creationParams["text"]}"
+    } else {
+      textView.text = "Нет сообщений"
     }
-
-    override fun dispose() {}
-
-    init {
-        textView = TextView(context)
-        textView.textSize = 20f
-        textView.setBackgroundColor(Color.rgb(0, 240, 0))
-        textView.text = "Нет сообщений"
-    }
+  }
 }

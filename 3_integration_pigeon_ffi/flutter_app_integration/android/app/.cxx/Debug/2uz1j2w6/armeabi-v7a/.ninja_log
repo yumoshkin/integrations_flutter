@@ -1,0 +1,19 @@
+# ninja log v5
+0	148	699535317	CMakeFiles/simple.dir/20c12e540364fb221b2b0e0f4528a8cd/flutter_app_integration/src/simple.c.o	7bd68f82021a578d
+149	440	699535317	C:/Flutter/SkillBox/projects/19/task/integrations_flutter/3_integration_pigeon_ffi/flutter_app_integration/build/app/intermediates/cxx/Debug/2uz1j2w6/obj/armeabi-v7a/libsimple.so	86e1d21770d02373
+4	128	699537399	CMakeFiles/simple.dir/20c12e540364fb221b2b0e0f4528a8cd/flutter_app_integration/src/simple.c.o	7bd68f82021a578d
+129	312	699537399	C:/Flutter/SkillBox/projects/19/task/integrations_flutter/3_integration_pigeon_ffi/flutter_app_integration/build/app/intermediates/cxx/Debug/2uz1j2w6/obj/armeabi-v7a/libsimple.so	86e1d21770d02373
+2	103	699537564	CMakeFiles/simple.dir/20c12e540364fb221b2b0e0f4528a8cd/flutter_app_integration/src/simple.c.o	7bd68f82021a578d
+103	261	699537564	C:/Flutter/SkillBox/projects/19/task/integrations_flutter/3_integration_pigeon_ffi/flutter_app_integration/build/app/intermediates/cxx/Debug/2uz1j2w6/obj/armeabi-v7a/libsimple.so	86e1d21770d02373
+3	66	699537718	CMakeFiles/simple.dir/20c12e540364fb221b2b0e0f4528a8cd/flutter_app_integration/src/simple.c.o	7bd68f82021a578d
+66	229	699537718	C:/Flutter/SkillBox/projects/19/task/integrations_flutter/3_integration_pigeon_ffi/flutter_app_integration/build/app/intermediates/cxx/Debug/2uz1j2w6/obj/armeabi-v7a/libsimple.so	86e1d21770d02373
+1	77	699537888	CMakeFiles/simple.dir/20c12e540364fb221b2b0e0f4528a8cd/flutter_app_integration/src/simple.c.o	7bd68f82021a578d
+77	224	699537889	C:/Flutter/SkillBox/projects/19/task/integrations_flutter/3_integration_pigeon_ffi/flutter_app_integration/build/app/intermediates/cxx/Debug/2uz1j2w6/obj/armeabi-v7a/libsimple.so	86e1d21770d02373
+2	72	699537972	CMakeFiles/simple.dir/20c12e540364fb221b2b0e0f4528a8cd/flutter_app_integration/src/simple.c.o	7bd68f82021a578d
+73	209	699537972	C:/Flutter/SkillBox/projects/19/task/integrations_flutter/3_integration_pigeon_ffi/flutter_app_integration/build/app/intermediates/cxx/Debug/2uz1j2w6/obj/armeabi-v7a/libsimple.so	86e1d21770d02373
+3	123	699553740	CMakeFiles/simple.dir/20c12e540364fb221b2b0e0f4528a8cd/flutter_app_integration/src/simple.c.o	7bd68f82021a578d
+124	281	699553740	C:/Flutter/SkillBox/projects/19/task/integrations_flutter/3_integration_pigeon_ffi/flutter_app_integration/build/app/intermediates/cxx/Debug/2uz1j2w6/obj/armeabi-v7a/libsimple.so	86e1d21770d02373
+3	131	699577347	CMakeFiles/simple.dir/20c12e540364fb221b2b0e0f4528a8cd/flutter_app_integration/src/simple.c.o	7bd68f82021a578d
+131	323	699577347	C:/Flutter/SkillBox/projects/19/task/integrations_flutter/3_integration_pigeon_ffi/flutter_app_integration/build/app/intermediates/cxx/Debug/2uz1j2w6/obj/armeabi-v7a/libsimple.so	86e1d21770d02373
+2	77	699577519	CMakeFiles/simple.dir/20c12e540364fb221b2b0e0f4528a8cd/flutter_app_integration/src/simple.c.o	7bd68f82021a578d
+78	216	699577519	C:/Flutter/SkillBox/projects/19/task/integrations_flutter/3_integration_pigeon_ffi/flutter_app_integration/build/app/intermediates/cxx/Debug/2uz1j2w6/obj/armeabi-v7a/libsimple.so	86e1d21770d02373

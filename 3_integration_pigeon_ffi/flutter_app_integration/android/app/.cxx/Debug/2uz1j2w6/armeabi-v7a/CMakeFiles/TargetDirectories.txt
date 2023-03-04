@@ -1,0 +1,3 @@
+C:/Flutter/SkillBox/projects/19/task/integrations_flutter/3_integration_pigeon_ffi/flutter_app_integration/android/app/.cxx/Debug/2uz1j2w6/armeabi-v7a/CMakeFiles/simple.dir
+C:/Flutter/SkillBox/projects/19/task/integrations_flutter/3_integration_pigeon_ffi/flutter_app_integration/android/app/.cxx/Debug/2uz1j2w6/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Flutter/SkillBox/projects/19/task/integrations_flutter/3_integration_pigeon_ffi/flutter_app_integration/android/app/.cxx/Debug/2uz1j2w6/armeabi-v7a/CMakeFiles/rebuild_cache.dir

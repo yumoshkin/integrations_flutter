@@ -9,12 +9,11 @@ class PlatformService implements CommonPlatformService {
   Future<String> sendMessage(String message) async {
     try {
       var arguments = {
-        'message': message,
+        'text': message,
       };
-      return await platform.invokeMethod('sendMessage', arguments);
+      return await platform.invokeMethod('CALL', arguments);
     } on PlatformException catch (e) {
-      print("Failed to get value: '${e.message}'.");
-      return "";
+      return e.message ?? '';
     }
   }
 }
